@@ -1,0 +1,37 @@
+# ============================================================
+# AI Art Generator - Requirements
+# Install with: pip install -r requirements.txt
+# ============================================================
+
+# Core ML / AI
+torch>=2.0.0
+torchvision>=0.15.0
+diffusers>=0.27.0
+transformers>=4.38.0
+accelerate>=0.27.0
+safetensors>=0.4.2
+
+# Image Processing
+Pillow>=10.0.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Frontend UI
+streamlit>=1.32.0
+
+# Utilities
+requests>=2.31.0
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+huggingface-hub>=0.21.0
+
+# Fine-tuning (optional)
+peft>=0.9.0           # For LoRA
+bitsandbytes>=0.43.0  # For 8-bit quantization
+
+# Evaluation
+torch-fidelity>=0.3.0  # FID score calculation
+lpips>=0.1.4           # Perceptual similarity
+
+# Testing
+pytest>=7.4.0
